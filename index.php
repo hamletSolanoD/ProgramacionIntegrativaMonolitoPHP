@@ -150,7 +150,7 @@
         <div class="container mx-auto px-4 text-center">
             <h2 class="text-3xl font-bold mb-6">¿Listo para comenzar?</h2>
             <p class="text-xl mb-8 max-w-2xl mx-auto">Regístrate hoy y obtén un 10% de descuento en tu primer servicio.</p>
-            <a href="registro.php" class="inline-block bg-white text-indigo-700 px-6 py-3 rounded-lg font-semibold text-lg hover:bg-indigo-100">Crear Cuenta Ahora</a>
+            <a href="signup.php" class="inline-block bg-white text-indigo-700 px-6 py-3 rounded-lg font-semibold text-lg hover:bg-indigo-100">Crear Cuenta Ahora</a>
         </div>
     </section>
 

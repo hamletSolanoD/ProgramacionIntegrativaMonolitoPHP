@@ -69,7 +69,7 @@ if ($isLoggedIn && !$isAdmin) {
                 <?php endif; ?>
 
                 <?php if ($isAdmin): ?>
-                    <a href="admin/dashboard.php" class="<?php echo isCurrentPage('dashboard.php'); ?>">Dashboard</a>
+                    <a href="admin/index.php" class="<?php echo isCurrentPage('dashboard.php'); ?>">Dashboard</a>
                 <?php endif; ?>
                 <a href="contacto.php" class="<?php echo isCurrentPage('contacto.php'); ?>">Contacto</a>
             </div>
@@ -142,7 +142,7 @@ if ($isLoggedIn && !$isAdmin) {
                     <a href="perfil.php" class="hover:text-indigo-200">Mi Perfil</a>
                 <?php endif; ?>
                 <?php if ($isAdmin): ?>
-                    <a href="admin/dashboard.php" class="hover:text-indigo-200">Dashboard</a>
+                    <a href="admin/index.php" class="hover:text-indigo-200">Dashboard</a>
                 <?php endif; ?>
                 <a href="contacto.php" class="hover:text-indigo-200">Contacto</a>
 

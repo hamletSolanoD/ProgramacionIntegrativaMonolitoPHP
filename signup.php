@@ -140,7 +140,7 @@
                 success: function(response) {
                     if (response.success) {
                         $('#mensajeExito').removeClass('hidden').text('¡Cuenta creada exitosamente! Redirigiendo...');
-                        setTimeout(() => window.location.href = 'dashboard.php', 2000);
+                        setTimeout(() => window.location.href = 'index.php', 2000);
                     } else {
                         $('#mensajeError').removeClass('hidden').text(response.message);
                     }

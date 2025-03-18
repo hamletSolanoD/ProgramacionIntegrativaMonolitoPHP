@@ -4,7 +4,7 @@ class CarritoDataBase
     private $host = "localhost";
     private $db_name = "monolitoEComerce";
     private $username = "root";
-    private $password = "";
+    private $password = "root123";
     private $conn = null;
 
     public function __construct()
